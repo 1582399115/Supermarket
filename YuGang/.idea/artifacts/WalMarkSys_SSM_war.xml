@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WalMarkSys_SSM:war">
+    <output-path>$PROJECT_DIR$/WalMarkSys_SSM/target</output-path>
+    <root id="archive" name="WalMarkSys_SSM-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WalMarkSys_SSM:war exploded" />
+    </root>
+  </artifact>
+</component>

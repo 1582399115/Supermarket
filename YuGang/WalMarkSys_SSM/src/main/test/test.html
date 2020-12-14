@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form id="form" action="form_action.asp" method="get">
+        <input type="button" id="btn" value="点我上传"  >
+        <input type="file" name="file"  onchange="upload() "style="opacity:0" />
+    </form>
+
+
+    <script >
+        function upload() {
+            var form = document.getElementById("form");
+            form.submit();
+        }
+    </script>
+</body>
+</html>
